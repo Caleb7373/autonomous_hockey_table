@@ -15,6 +15,7 @@ The instantaneous geometry correction is included in center cable acceleration.
 Motor/reel inertia stays fixed during diameter sweeps: update it for real reels.
 No motor is declared suitable without an actual torque-speed curve.
 """
+print("conflicting_test")
 from dataclasses import dataclass, fields, replace
 import argparse
 import json
